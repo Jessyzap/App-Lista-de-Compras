@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="produto">Maçã</string>
+    <string name="valor">R$ 0.00</string>
+    <string name="adicionar_produto">Adicionar</string>
+    <string name="simboloValor">R$</string>
+    <string name="numeroValor">0.00</string>
+    <string name="remover_produto">Remover item</string>
+    <string name="insira_o_preco">insira o preço</string>
+    <string name="insira_o_produto">insira o produto</string>
+</resources>
