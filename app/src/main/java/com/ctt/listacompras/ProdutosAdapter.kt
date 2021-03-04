@@ -30,7 +30,7 @@ class ProdutosAdapter(private val listaProdutos: MutableList<Produto>) :
     override fun onBindViewHolder(holder: ProdutoHolder, position: Int) {
 
         holder.nome.text = listaProdutos[position].nomeProduto
-        holder.preco.text = listaProdutos[position].precoProduto.toString()
+        holder.preco.text = "%.2f".format(listaProdutos[position].precoProduto)
         holder.itemView.setBackgroundColor(Color.parseColor("#F4F1DE")) // cor padrão do item
         holder.itemView.setOnClickListener() {
             holder.itemView.setBackgroundColor(Color.parseColor("#FFF3EBB9")) // cor do item selecionado
